@@ -38,7 +38,6 @@ public class TestMain
 
         Console.WriteLine("About to connect to " + ranmdomFailover);
 
-        // NOTE: ensure the nmsprovider-activemq.config file exists in the executable folder.
         IConnectionFactory factory = new ConnectionFactory(ranmdomFailover);
 
         using (IConnection connection = factory.CreateConnection(username, password))
