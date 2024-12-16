@@ -7,4 +7,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="nmsprovider-activemq.config" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="nmsprovider-activemq.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Apache.NMS.ActiveMQ" Version="2.1.0" />
+  </ItemGroup>
+
 </Project>

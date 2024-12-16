@@ -5,7 +5,8 @@ VisualStudioVersion = 17.11.35327.3
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "common", "common", "{7D42B5E0-ACCA-48B2-B66F-515285148F02}"
 	ProjectSection(SolutionItems) = preProject
-		..\README.md = ..\README.md
+		compose.yaml = compose.yaml
+		README.md = README.md
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B175F7BA-85B6-4FFC-9316-4950F073AE6A}"
@@ -13,6 +14,21 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{63378E3C-0C65-4499-8F75-343B82451492}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleClient", "src\SimpleClient\SimpleClient.csproj", "{727F46D5-17CA-4799-97C8-B00AA3C4FC1A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node0", "node0", "{7B558499-D93B-4772-BBA4-E0FF5C023526}"
+	ProjectSection(SolutionItems) = preProject
+		node0\broker-00.xml = node0\broker-00.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node1", "node1", "{91379B0E-C7DC-4CED-A83A-3379B7FE4FEC}"
+	ProjectSection(SolutionItems) = preProject
+		node1\broker-00.xml = node1\broker-00.xml
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "node2", "node2", "{A5B953C5-23EC-4127-B6FC-B86EDF53A961}"
+	ProjectSection(SolutionItems) = preProject
+		node2\broker-00.xml = node2\broker-00.xml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -30,6 +46,9 @@ Global
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{727F46D5-17CA-4799-97C8-B00AA3C4FC1A} = {B175F7BA-85B6-4FFC-9316-4950F073AE6A}
+		{7B558499-D93B-4772-BBA4-E0FF5C023526} = {7D42B5E0-ACCA-48B2-B66F-515285148F02}
+		{91379B0E-C7DC-4CED-A83A-3379B7FE4FEC} = {7D42B5E0-ACCA-48B2-B66F-515285148F02}
+		{A5B953C5-23EC-4127-B6FC-B86EDF53A961} = {7D42B5E0-ACCA-48B2-B66F-515285148F02}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {7FC6CAC8-7FD9-45BA-9CF2-68E3C4F2FC64}
